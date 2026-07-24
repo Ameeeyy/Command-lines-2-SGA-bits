@@ -1,0 +1,22 @@
+Question 4 - Log Monitoring
+
+Objective:
+This shell script continuously monitors a log file, extracts ERROR messages, stores them in a separate report file, and suppresses unnecessary output.
+
+Commands Used
+
+1. tail -f
+Continuously monitors newly added log entries.
+
+2. grep
+Filters only ERROR messages.
+
+3. >>
+Appends ERROR messages to the report file.
+
+4. 2>/dev/null
+Suppresses unnecessary error messages.
+
+Explanation
+
+The script monitors the log file using tail -f. The output is passed to grep, which filters only ERROR messages. These messages are appended to error_report.txt, while unnecessary error messages are redirected to /dev/null.
