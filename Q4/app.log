@@ -1,0 +1,8 @@
+2026-07-24 21:00:01 INFO: Service started successfully
+2026-07-24 21:00:02 INFO: User login successful
+2026-07-24 21:00:03 ERROR: Database connection timeout
+2026-07-24 21:00:04 INFO: Request processed
+2026-07-24 21:00:05 ERROR: Null pointer exception
+2026-07-24 21:00:06 INFO: Cache refreshed
+2026-07-24 21:00:07 ERROR: Disk write failed
+2026-07-24 21:00:08 INFO: Health check passed
