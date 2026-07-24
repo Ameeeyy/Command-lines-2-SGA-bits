@@ -1,0 +1,29 @@
+Question 5 - Vi Recovery Mechanisms
+
+Objective:
+This document explains the recovery mechanisms available in the vi editor after an unexpected system crash.
+
+Recovery Mechanisms
+
+1. Swap File (.swp)
+The swap file stores unsaved changes and helps recover work after a crash.
+
+2. Undo History
+Undo allows recently made changes to be reverted during the editing session.
+
+3. Registers
+Registers temporarily store copied, deleted, and yanked text for later use.
+
+4. Backup Files
+Backup files preserve an older version of the file before modifications.
+
+5. Auto Recovery
+The vi editor automatically detects swap files and provides recovery options when reopening the file.
+
+Recommended Recovery Strategy
+
+The most reliable recovery strategy is to use the swap file recovery option first. After recovering the file, save it immediately and verify the contents. Backup files provide an additional layer of safety if recovery from the swap file is incomplete.
+
+Conclusion
+
+Using swap files together with backup files provides the safest and most reliable recovery mechanism for protecting important configuration files.
