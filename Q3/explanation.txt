@@ -1,0 +1,25 @@
+Question 3 - File System Calls
+
+Objective:
+This program demonstrates the use of Linux system calls to create a file, write employee records, update specific records, and retrieve records efficiently.
+
+System Calls Used
+
+1. open()
+Creates and opens a file.
+
+2. write()
+Writes employee records into the file.
+
+3. lseek()
+Moves the file pointer to update a specific record without rewriting the entire file.
+
+4. read()
+Reads employee records from the file.
+
+5. close()
+Closes the file after all operations are completed.
+
+Explanation
+
+The program first creates a file using open(). Employee records are written using write(). The lseek() system call moves the file pointer to a specific location, allowing a record to be updated without rewriting the entire file. The read() system call retrieves stored records, and close() safely closes the file after all operations are complete.
