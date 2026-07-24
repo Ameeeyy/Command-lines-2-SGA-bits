@@ -1,0 +1,25 @@
+Question 2 - Process Control
+
+Objective:
+This program creates child processes using fork(), monitors their execution, prevents zombie processes using wait(), and terminates unresponsive child processes using signals.
+
+Commands / Functions Used
+
+1. fork()
+Creates child processes.
+
+2. wait() / waitpid()
+Waits for child processes and prevents zombie processes.
+
+3. kill()
+Terminates an unresponsive child process.
+
+4. signal()
+Used for handling process signals.
+
+5. sleep()
+Simulates process execution.
+
+Explanation
+
+The parent process creates multiple child processes using fork(). It continuously monitors them using waitpid(). If a child process exceeds the timeout period, the parent terminates it using SIGTERM through kill(). The parent waits for all child processes before exiting, ensuring that no zombie processes remain.
